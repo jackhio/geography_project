@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>geography project webpage</title>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .container {
+          position: relative;
+          text-align: center;
+          color: white;
+        }
+        
+        .bottom-left {
+         position: absolute;
+         bottom: 8px;
+         left: 16px;
+        }
+
+        .top-left {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+        }
+
+        .top-right {
+         position: absolute;
+         top: 8px;
+         right: 16px;
+        }
+
+        .bottom-right {
+         position: absolute;
+         bottom: 8px;
+         right: 16px;
+        }
+
+        .centered {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         }
+         * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        </style>
+    <body style="background-color: #1c4a1c;">
+        <h1 style="color: aqua;">HOME PAGE</h1>
+        <p style="color: aqua;">
+            This is the home page of my website and will be acting as a hub to the other five main pieces: Physical Geography, Government, Population Demographics, Economy, and Culture of the Uintah Basin.
+            Below are five images each leading you to the other pages and links that will lead you to my cited sources.
+          </p><br>
+              <img src="https://www.researchgate.net/profile/Justin-Birdwell/publication/264229256/figure/fig1/AS:392479418404864@1470585793085/Map-showing-extent-of-Uinta-Piceance-and-Greater-Green-River-Basins-and-approximate.png"  width="300" height="500" alt="Map of uintah basin" usemap="#Phys._Geo." style="margin: 1px 10px 1px 10px;">
+          <map name="Phys._Geo.">
+            <area shape="rect" coords="0,0,500,500" alt="Pyhsical Geography" href="../geography project/pages(back_end)/physical geography.html">
+          </map>
+          <img src="https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/POLL/ht0qszhzgewsehfx-jhqdw.jpg"  width="600" height="400" alt="map of government building" usemap="#Gov.">
+          <map name="Gov.">
+            <area shape="rect" coords="0,0,500,500" alt="Government" href="../geography project/pages(back_end)/Government.html">
+          </map>
+          <a href="https://www.researchgate.net/profile/Justin-Birdwell/publication/264229256/figure/fig1/AS:392479418404864@1470585793085/Map-showing-extent-of-Uinta-Piceance-and-Greater-Green-River-Basins-and-approximate.png"><p style="color: aqua;">(Left) Physical Geography</p></a><a href="https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/POLL/ht0qszhzgewsehfx-jhqdw.jpg"></a><p style="color: aqua;">(Right) Government</p><br>
+          <img src="https://pics4.city-data.com/sgraphs/races/races-Uintah-UT.png"  width="400" height="400" alt="Population" usemap="#Pop." style="margin: 1px 10px 1px 10px;">
+          <map name="Pop.">
+            <area shape="rect" coords="0,0,500,500" alt="Population" href="../geography project/pages(back_end)/Population Demographics.html">
+          </map>
+          <img src="https://deseret.brightspotcdn.com/dims4/default/82e518c/2147483647/strip/true/crop/1200x800+0+0/resize/1023x682!/format/webp/quality/90/?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2F9SM3GFxny0IR2z27VcZ0pPJwGxw%3D%2F0x0%3A1200x800%2F1200x800%2Ffilters%3Afocal%28600x400%3A601x401%29%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F18972247%2F1664962.jpg"  width="400" height="500" alt="Economy" usemap="#Eco.">
+          <map name="Eco.">
+            <area shape="rect" coords="0,0,500,500" alt="Economy" href="../geography project/pages(back_end)/Economy.html">
+          </map>
+          <a href="https://pics4.city-data.com/sgraphs/races/races-Uintah-UT.png"><p style="color: aqua;">(Left) Population</p></a><a href="https://deseret.brightspotcdn.com/dims4/default/82e518c/2147483647/strip/true/crop/1200x800+0+0/resize/1023x682!/format/webp/quality/90/?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2F9SM3GFxny0IR2z27VcZ0pPJwGxw%3D%2F0x0%3A1200x800%2F1200x800%2Ffilters%3Afocal%28600x400%3A601x401%29%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F18972247%2F1664962.jpg"><p style="color: aqua;">(Right) Economy</p></a>
+          <img src="https://www.visitutah.com/azure/cmsroot/visitutah/media/site-assets/things%20to%20do/history-culture/websocial_native-heritage-cultures_jake-samuel-02.jpg?w=527&h=791&mode=crop&quality=65"  width="300" height="500" alt="Culture" usemap="#Culture" style="margin: 1px 265px 1px 265px;">
+          <map name="Culture">
+            <area shape="rect" coords="0,0,500,500" alt="Culture" href="../geography project/pages(back_end)/Culture.html">
+          </map>
+          <a href="https://www.visitutah.com/azure/cmsroot/visitutah/media/site-assets/things%20to%20do/history-culture/websocial_native-heritage-cultures_jake-samuel-02.jpg?w=527&h=791&mode=crop&quality=65"><p style="color:aqua">(above) Culture</p></a>
+    </body>
+ </html>
